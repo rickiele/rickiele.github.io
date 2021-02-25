@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,7 +82,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		background: red;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,8 +97,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		color: #3F3016;
+		font-family: 'Poppins', sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -134,7 +133,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #3F3016;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -288,7 +287,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -297,7 +296,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -308,7 +307,7 @@ input, select, textarea {
 
 	@-webkit-keyframes spinner-hide {
 		0% {
-			color: rgba(255, 255, 255, 0.15);
+			color:rgba(255, 255, 255, 0.15);
 			z-index: 100001;
 			-moz-transform: scale(1) rotate(0deg);
 			-webkit-transform: scale(1) rotate(0deg);
@@ -317,7 +316,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -326,7 +325,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -346,7 +345,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -355,7 +354,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -375,7 +374,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -384,7 +383,7 @@ input, select, textarea {
 		}
 
 		100% {
-			color: #1c1d26;
+			color: #3F3016;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -588,12 +587,13 @@ input, select, textarea {
 			z-index: -1;
 		}
 
+		/* Landing Loader */
 		body.landing:after {
 			-moz-animation: overlay-hide 1.5s ease-in forwards !important;
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #1c1d26;
+			background: #CEBFA3;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2154,7 +2154,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #ffffff;
+		color: #3F3016;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3057,7 +3057,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -3083,7 +3083,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: red;
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3139,15 +3139,15 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			/* border-color: #e44c65; */
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			/* border-color: #5480f1; */
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			/* border-color: #39c088; */
 		}
 
 		.spotlight.inactive .content {
@@ -3451,14 +3451,14 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: #FCF4E3;
+		/* background-image: url("../../images/banner.jpg"); */
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
-		text-align: center;
+		text-align: left;
 		z-index: 21;
 	}
 
@@ -3471,10 +3471,11 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/* background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
+			background-color: #FCF4E3;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3486,11 +3487,12 @@ input, select, textarea {
 
 		#banner .content {
 			display: inline-block;
+			margin-top: 25%;
 			margin-right: 1%;
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
+			text-align: left;
 			vertical-align: middle;
 			z-index: 1;
 		}
