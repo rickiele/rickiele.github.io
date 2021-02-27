@@ -1,5 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -82,7 +85,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: red;
+		background: white;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -110,12 +113,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: pink;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: green !important;
 			border-bottom-color: transparent;
 		}
 
@@ -138,13 +141,22 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
+	
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		border: 0;
+	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			border: 0;
-		}
-
+	
+	h1 {
+		font-size: 2.25em;
+		line-height: 1.5em;
+		letter-spacing: -0.025em;
+	}
+	
 	h2 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
 		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
@@ -2149,9 +2161,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	/* section.special, article.special {
 		text-align: center;
-	}
+	} */
 
 	header p {
 		color: #3F3016;
@@ -2185,14 +2197,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		header.major:after {
+		/* header.major:after {
 			background: #e44c65;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
 			max-width: 20em;
 			width: 75%;
-		}
+		} */
 
 	footer.major {
 		margin: 4em 0 0 0;
@@ -3083,7 +3095,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: red;
+			/* background: pink; */
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3201,7 +3213,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #FFD88A;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3399,6 +3411,11 @@ input, select, textarea {
 			position: absolute;
 			right: 1em;
 			top: 0;
+			text-transform: uppercase;
+			font-family: 'Poppins', sans-serif;
+			font-weight: 500;
+			font-size: 1.25rem;
+
 		}
 
 			#header nav ul {
@@ -3503,7 +3520,7 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 4em;
 					margin: 0;
 				}
 
@@ -4110,4 +4127,16 @@ input, select, textarea {
 						padding: 0;
 					}
 
+	}
+
+	.project1 {
+		background: #FAA4A5;
+	}
+
+	.project2 {
+		background:#679AC5;
+	}
+
+	.project3 {
+		background: #FFC74C;
 	}
