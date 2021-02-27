@@ -1,5 +1,8 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -138,13 +141,22 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
+	
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		border: 0;
+	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			border: 0;
-		}
-
+	
+	h1 {
+		font-size: 2.25em;
+		line-height: 1.5em;
+		letter-spacing: -0.025em;
+	}
+	
 	h2 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
 		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
@@ -2149,9 +2161,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	/* section.special, article.special {
 		text-align: center;
-	}
+	} */
 
 	header p {
 		color: #3F3016;
@@ -2185,14 +2197,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		header.major:after {
+		/* header.major:after {
 			background: #e44c65;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
 			max-width: 20em;
 			width: 75%;
-		}
+		} */
 
 	footer.major {
 		margin: 4em 0 0 0;
@@ -3201,7 +3213,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #FFD88A;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3508,7 +3520,7 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 4em;
 					margin: 0;
 				}
 
