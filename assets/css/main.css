@@ -2170,6 +2170,15 @@ input, select, textarea {
 		text-align: center;
 	} */
 
+	div span {
+		color: #3F3016;
+		font-size: 1.25em;
+	}
+
+	.nearAndDear {
+		width: 55%;
+	}
+
 	header p {
 		color: #3F3016;
 		position: relative;
@@ -4202,6 +4211,8 @@ input, select, textarea {
 		color: green;
 	}
 
+
+/* Playground Banner */
 	.playground--ball {
 		background-color:#FFC74C;
 		position: relative;
@@ -4246,3 +4257,121 @@ input, select, textarea {
 		border-right: 5em solid transparent;
 		border-bottom: 10em solid #679AC5;
 	}
+
+
+/* Hover Images  */
+
+/* Mech board */
+.hover-mech {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.hover-mech-img {
+		visibility: hidden;
+}
+
+body:not(.mobile) .hover-mech:hover + .hover-mech-img {
+		visibility: visible;
+		pointer-events: none;
+}
+
+.hover-mech-img {
+	display: flex;
+	position: fixed;
+	top: 45%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	pointer-events: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5%;
+
+/* Change width and height to scale images */
+	width: 28vw;
+	height: 63vh;
+}
+
+.hover-mech img {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	width: auto !important;
+	height: auto !important;
+	margin-bottom: 0;
+}
+
+
+
+/* Piggies */
+.hover-piggies {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.hover-piggies-img {
+    visibility: hidden;
+}
+
+
+body:not(.mobile) .hover-piggies:hover + .hover-piggies-img {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-piggies-img {
+    display: flex;
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/* Change width and height to scale images */
+    width: 25vw;
+    height: 35vh;
+}
+
+/* Toys */
+.hover-toys {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.hover-toys-img {
+    visibility: hidden;
+}
+
+
+body:not(.mobile) .hover-toys:hover + .hover-toys-img {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-toys-img {
+    display: flex;
+    position: fixed;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+		border-radius: 100%;
+
+/* Change width and height to scale images */
+    width: 28vw;
+    height: 38vh;
+}
