@@ -117,10 +117,10 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
+		/* a:hover {
 			color: green !important;
 			border-bottom-color: transparent;
-		}
+		} */
 
 	strong, b {
 		color: #ffffff;
@@ -3504,7 +3504,7 @@ input, select, textarea {
 
 		#banner .content {
 			display: inline-block;
-			margin-top: 25%;
+			/* margin-top: 25%; */
 			margin-right: 1%;
 			max-width: 95%;
 			padding: 6em;
@@ -4139,4 +4139,63 @@ input, select, textarea {
 
 	.project3 {
 		background: #FFC74C;
+	}
+
+	
+	
+	a:hover .blue {
+		color: blue;
+	}
+	
+	a span {
+			transition: all 0.5s ease;
+	}
+	
+	a:hover .red {
+		color: red;
+	}
+	
+	a:hover .yellow {
+		color: yellow;
+	}
+	
+	a:hover .green {
+		color: green;
+	}
+
+	.playground--ball {
+		background-color:#FFC74C;
+		position: relative;
+		width: 10em;
+		height: 10em;
+		border-radius: 100%;
+	}
+
+	.playground--ball:after {
+		/*background: rgba(255, 255, 255, 0.1);*/
+		bottom: -30px;
+		content: '';
+		left: -30px;
+		position: absolute;
+		right: -30px;
+		top: -30px;
+	}
+
+	.playground--ball:hover {
+		background-color:#FAA4A5;
+		cursor: move;
+		cursor: -webkit-grab;
+	}
+
+	.playground--ball:active {
+		background: #679AC5;
+		cursor: move;
+		cursor: -webkit-grabbing;
+		transition-duration: 100ms;
+	}
+
+	.playground {
+		width: 75em;
+		height: 25em;
+		
 	}
