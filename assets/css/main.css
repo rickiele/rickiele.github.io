@@ -3457,6 +3457,10 @@ input, select, textarea {
 						outline: 0;
 					}
 
+					#header nav ul li a:hover {
+						color:#FAA4A5;
+					}
+
 						#header nav ul li a.button, #header nav ul li span.button {
 							height: 2em;
 							line-height: 2em;
@@ -4154,6 +4158,9 @@ input, select, textarea {
 
 	}
 
+
+	/* Projects */
+
 	.project1 {
 		background: #FAA4A5;
 	}
@@ -4176,6 +4183,19 @@ input, select, textarea {
 		background-color: #FCF4E3;
 	}
 
+	a.button.primary.small {
+		background-color: #FFC74C;
+		text-transform: uppercase;
+		color: #3F3016 !important;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	a.button.primary.small:hover {
+    background-color:#EFB848;
+}
+
+	/* About Section */
 	.aboutMe {
 		margin: 0 auto;
 		position: relative;
@@ -4191,7 +4211,7 @@ input, select, textarea {
 		border-radius: 100%;
 	}
 	
-	a:hover .blue {
+	/* a:hover .blue {
 		color: blue;
 	}
 	
@@ -4209,7 +4229,7 @@ input, select, textarea {
 	
 	a:hover .green {
 		color: green;
-	}
+	} */
 
 
 /* Playground Banner */
@@ -4312,11 +4332,9 @@ body:not(.mobile) .hover-mech:hover + .hover-mech-img {
     cursor: pointer;
 }
 
-
 .hover-piggies-img {
     visibility: hidden;
 }
-
 
 body:not(.mobile) .hover-piggies:hover + .hover-piggies-img {
     visibility: visible;
@@ -4347,11 +4365,9 @@ body:not(.mobile) .hover-piggies:hover + .hover-piggies-img {
     cursor: pointer;
 }
 
-
 .hover-toys-img {
     visibility: hidden;
 }
-
 
 body:not(.mobile) .hover-toys:hover + .hover-toys-img {
     visibility: visible;
