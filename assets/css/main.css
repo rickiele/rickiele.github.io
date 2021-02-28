@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #FCF4E3;
 }
 
 ol, ul {
@@ -168,8 +169,12 @@ input, select, textarea {
 	}
 
 	h4 {
+		color: #6A8243;
 		font-size: 1.1em;
+		font-weight: 600;
+		letter-spacing: 1px;
 		line-height: 1.5em;
+		text-transform: uppercase;
 	}
 
 	h5 {
@@ -2165,6 +2170,15 @@ input, select, textarea {
 		text-align: center;
 	} */
 
+	div span {
+		color: #3F3016;
+		font-size: 1.25em;
+	}
+
+	.nearAndDear {
+		width: 55%;
+	}
+
 	header p {
 		color: #3F3016;
 		position: relative;
@@ -2186,9 +2200,14 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1.25em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
+		width: 55%;
+	}
+
+	header h4 {
+		margin-bottom: 2em;
 	}
 
 	header.major {
@@ -2197,14 +2216,16 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		/* header.major:after {
-			background: #e44c65;
+		div.about--section:before {
+			background: #FFC74C;
 			content: '';
 			display: inline-block;
-			height: 0.2em;
-			max-width: 20em;
-			width: 75%;
-		} */
+			height: 0.1em;
+			/* max-width: 60em; */
+			width: 90%;
+			margin-bottom: 2em;
+			margin-top: 3em;
+		}
 
 	footer.major {
 		margin: 4em 0 0 0;
@@ -2477,12 +2498,12 @@ input, select, textarea {
 			}
 
 			.icon.alt:before {
-				color: #1c1d26 !important;
+				color: #3F3016 !important;
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #3F3016;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -2910,7 +2931,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			background-color: #FAA4A5;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2919,7 +2940,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #e76278;
+				background-color: #679AC5;
 			}
 
 			input[type="submit"].primary:active,
@@ -3213,7 +3234,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #FFD88A;
+			background: #FCF4E3;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3551,7 +3572,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #FCF4E3;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3574,12 +3595,16 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #272833 !important;
+				color: #3F3016 !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
+			/* #footer .icons .icon.alt:hover {
+				color: red !important;
+			} */
+
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color:#3F3016;
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -4141,7 +4166,30 @@ input, select, textarea {
 		background: #FFC74C;
 	}
 
-	
+	section#four {
+		padding-top: 10em;
+		padding-bottom: 5em;
+    background-color: #FCF4E3;
+	}
+
+	section#five {
+		background-color: #FCF4E3;
+	}
+
+	.aboutMe {
+		margin: 0 auto;
+		position: relative;
+		text-align: left;
+		width: 60%;
+	}
+
+	.aboutMe h2 {
+		font-weight: 500;
+	}
+
+	.aboutMe--headshot {
+		border-radius: 100%;
+	}
 	
 	a:hover .blue {
 		color: blue;
@@ -4163,6 +4211,8 @@ input, select, textarea {
 		color: green;
 	}
 
+
+/* Playground Banner */
 	.playground--ball {
 		background-color:#FFC74C;
 		position: relative;
@@ -4207,3 +4257,121 @@ input, select, textarea {
 		border-right: 5em solid transparent;
 		border-bottom: 10em solid #679AC5;
 	}
+
+
+/* Hover Images  */
+
+/* Mech board */
+.hover-mech {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.hover-mech-img {
+		visibility: hidden;
+}
+
+body:not(.mobile) .hover-mech:hover + .hover-mech-img {
+		visibility: visible;
+		pointer-events: none;
+}
+
+.hover-mech-img {
+	display: flex;
+	position: fixed;
+	top: 45%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	pointer-events: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5%;
+
+/* Change width and height to scale images */
+	width: 28vw;
+	height: 63vh;
+}
+
+.hover-mech img {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	width: auto !important;
+	height: auto !important;
+	margin-bottom: 0;
+}
+
+
+
+/* Piggies */
+.hover-piggies {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.hover-piggies-img {
+    visibility: hidden;
+}
+
+
+body:not(.mobile) .hover-piggies:hover + .hover-piggies-img {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-piggies-img {
+    display: flex;
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/* Change width and height to scale images */
+    width: 25vw;
+    height: 35vh;
+}
+
+/* Toys */
+.hover-toys {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.hover-toys-img {
+    visibility: hidden;
+}
+
+
+body:not(.mobile) .hover-toys:hover + .hover-toys-img {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-toys-img {
+    display: flex;
+    position: fixed;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+		border-radius: 100%;
+
+/* Change width and height to scale images */
+    width: 28vw;
+    height: 38vh;
+}
