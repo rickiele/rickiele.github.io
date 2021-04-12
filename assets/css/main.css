@@ -3900,6 +3900,36 @@ input, select, textarea {
 			padding-right: .5em;
 		}
 
+		/* Hover Images  */
+		/* Mech board */
+		.hover-mech-img {
+			top: 27% !important;
+			left: 40% !important;
+		/* Change width and height to scale images */
+			width: 45vw !important;
+			height: 35vh !important;
+		}
+
+		/* Piggies */
+
+		.hover-piggies-img {
+				top: 25% !important;
+				left: 65% !important;
+		/* Change width and height to scale images */
+				width: 65vw !important;
+				height: 35vh !important;
+		}
+
+		/* Toys */
+		.hover-toys-img {
+				top: 70% !important;
+				left: 60% !important;
+		/* Change width and height to scale images */
+				width: 60vw !important;
+				height: 25vh !important;
+		}
+
+		
 		/* Basic */
 
 			html, body {
