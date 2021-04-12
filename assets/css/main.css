@@ -3837,12 +3837,8 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Playground */
-
-		/* div.playground .playground--ball{
-			margin-top: -10em;
-		} */
-		div.playground--ball {
-			/* padding-bottom: -10em; */
+		div#ball {
+			padding-right: 5em;
 		}
 
 		.banner--header--container {
