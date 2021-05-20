@@ -212,6 +212,9 @@ input, select, textarea {
 	h5 {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		font-weight: 600;
+		letter-spacing: .1em;
+		color: #6A8243;
 	}
 
 	h6 {
@@ -3527,6 +3530,31 @@ input, select, textarea {
 	}
 
 /* Banner */
+
+	#subpage-banner {
+		background-color: #FCF4E3;
+	}
+
+	#subpage-banner:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+		width: 1%;
+	}
+
+	#subpage-banner:after {
+		background-color: #FCF4E3;
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+
 
 	#banner {
 		background-attachment: fixed;
