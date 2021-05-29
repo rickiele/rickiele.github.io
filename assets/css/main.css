@@ -176,7 +176,6 @@ input, select, textarea {
 	}
 	
 	h2 {
-		/* font-family: 'Poppins', sans-serif; */
 		font-family: 'Recoleta Regular DEMO';
 		font-weight: 400;
 		font-size: 3em;
@@ -4563,3 +4562,6 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
     width: 28vw;
     height: 38vh;
 }
+
+
+/* Carousel */
