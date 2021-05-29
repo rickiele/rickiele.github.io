@@ -3538,14 +3538,13 @@ input, select, textarea {
 	#subpage-banner:before {
 		content: '';
 		display: inline-block;
-		height: 100vh;
+		height: 50vh;
 		vertical-align: middle;
 		width: 1%;
 	}
 
 	#subpage-banner:after {
 		background-color: #FCF4E3;
-		content: '';
 		display: block;
 		height: 100%;
 		left: 0;
@@ -3554,7 +3553,16 @@ input, select, textarea {
 		width: 100%;
 	}
 
-
+	#subpage-banner .content {
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: left;
+		vertical-align: middle;
+		z-index: 1;
+	}
 
 	#banner {
 		background-attachment: fixed;
