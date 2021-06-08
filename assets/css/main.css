@@ -4637,7 +4637,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
+				/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: 100% 100%;
@@ -4709,7 +4709,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 				}
 
 		.tiles article.style1 > .image:before {
-			background-color: #f2849e;
+			background-color: #679AC3;
 		}
 
 		.tiles article.style2 > .image:before {
@@ -4740,7 +4740,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		}
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
-				background-color: #333333;
+				background-color: white;
 				opacity: 0.35;
 			}
 
@@ -4829,6 +4829,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 	}
 
+	/* Design Page */
 .designSection {
 	background-color: #FAA4A4;
 }
@@ -4858,6 +4859,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	width: 100%;
 }
 
+/* Work Subpages */
 #work {
 	background-color: #FCF4E3;
 }
@@ -4867,6 +4869,98 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
  margin: 0 auto;
  padding: 1em;
 }
+
+.work-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+    
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.row-one .work-item:nth-of-type(1) { 
+	flex-grow: 1; 
+	background-image: url("/images/larry_the_wizard.gif");
+}
+.row-one .work-item:nth-of-type(2) {
+	flex-grow: 2;
+	background-image: url("/images/noelmorning-1500-2.jpg");
+	}
+
+.row-two .work-item:nth-of-type(1) {
+	flex-grow: 1;
+	background-image: url("/images/piggies.gif");
+
+}
+
+.row-two .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/piggies.gif");
+}
+
+.row-three .work-item:nth-of-type(1) {
+	flex-grow: 2;
+	background-image: url("/images/piggies.gif");
+}
+
+.row-three .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/piggies.gif");
+}
+
+.work-item {
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+	height: 14em;
+	margin: .25em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 736px) {
+
+	.work-row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.work-item {
+		width: 100%;
+		height: 7em;
+		background-size: contain;
+	}
+
+	/* .work-item:nth-of-type(1) { 
+		background-image: url("/images/larry_the_wizard.gif");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.work-item:nth-of-type(2) {
+		background-image: url("/images/noelmorning-1500-2.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		} */
+
+}
+
 
 /* PAWL */
 
@@ -4894,8 +4988,14 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 .work-inner {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 2em;
 }
 
-.video {
+.work--video {
 	margin: 0 auto;
+}
+
+.video--div {
+	background-color: #323083;
+	padding: 2em;
 }
