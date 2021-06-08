@@ -4857,3 +4857,45 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	margin: 0 0 3em 0;
 	width: 100%;
 }
+
+#work {
+	background-color: #FCF4E3;
+}
+
+.work-image {
+ width: 30%;
+ margin: 0 auto;
+ padding: 1em;
+}
+
+/* PAWL */
+
+.pawl-banner {
+	background-image: url("/images/PAWL/PAWL_Frames-1.png");
+	background-size: cover;
+}
+
+.pawl-banner h1 {
+	color: #FCF4E3;
+}
+
+.pawl-banner p {
+	color: #FCF4E3;
+}
+
+#work-nav {
+	color: #FCF4E3; 
+}
+
+#work {
+	padding: 2em;
+}
+
+.work-inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.video {
+	margin: 0 auto;
+}
