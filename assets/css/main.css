@@ -4834,19 +4834,26 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 }
 
 .animationSection {
-	background-color: #FFC74C;
+	background-color: #679AC4;
 }
 
 .illustrationSection {
-	background-color: #679AC4;
+	background-color: #FFC74C;
 }
 
 
 .portfolio {
 	padding: 2em;
+	padding-bottom: 6em;
 }
 
 .portfolioHeading {
 	text-transform: uppercase;
 	margin: 0;
+}
+
+.image.main {
+	display: block;
+	margin: 0 0 3em 0;
+	width: 100%;
 }
