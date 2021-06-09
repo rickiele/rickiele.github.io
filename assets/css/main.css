@@ -4954,6 +4954,12 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		background-size: contain;
 	}
 
+	.work-image {
+		width: 100%;
+		margin: 0 auto;
+		padding: .25em;
+	 }
+
 	/* .work-item:nth-of-type(1) { 
 		background-image: url("/images/larry_the_wizard.gif");
 		background-size: contain;
@@ -4970,7 +4976,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 /* PAWL */
 .pawl-banner {
-	background-image: url("/images/PAWL/PAWL_Frames-1.png");
+	background-image: url("/images/PAWL/PAWL_banner.jpg");
 	background-size: cover;
 }
 
@@ -4998,6 +5004,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 .work--video {
 	margin: 0 auto;
+	
 }
 
 .video--div {
