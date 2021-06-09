@@ -4713,7 +4713,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		}
 
 		.tiles article.style2 > .image:before {
-			background-color: #7ecaf6;
+			background-color: #c75b9b;
 		}
 
 		.tiles article.style3 > .image:before {
@@ -4741,7 +4741,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
 				background-color: white;
-				opacity: 0.35;
+				opacity: 0.25;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image:after {
@@ -4893,14 +4893,19 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
   align-items: stretch;
 }
 
+/* Misc Page */
 .row-one .work-item:nth-of-type(1) { 
 	flex-grow: 1; 
-	background-image: url("/images/larry_the_wizard.gif");
+	background-image: url("/images/misc/larry_the_wizard.gif");
+	background-size: contain;
+	background-position: center-bottom;
 }
 .row-one .work-item:nth-of-type(2) {
-	flex-grow: 2;
-	background-image: url("/images/noelmorning-1500-2.jpg");
-	}
+	flex-grow: 1;
+	background-image: url("/images/misc/Strangers-YTG-Cover.jpg");
+	background-size: contain;
+	background-position: center-bottom;
+}
 
 .row-two .work-item:nth-of-type(1) {
 	flex-grow: 1;
@@ -4910,7 +4915,8 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 .row-two .work-item:nth-of-type(2) {
 	flex-grow: 1;
-	background-image: url("/images/piggies.gif");
+	background-image: url("/images/misc/Valor-Animation.gif");
+	background-size: contain;
 }
 
 .row-three .work-item:nth-of-type(1) {
@@ -4963,7 +4969,6 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 
 /* PAWL */
-
 .pawl-banner {
 	background-image: url("/images/PAWL/PAWL_Frames-1.png");
 	background-size: cover;
@@ -4999,3 +5004,43 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	background-color: #323083;
 	padding: 2em;
 }
+
+/* Venture */
+
+.venture-banner {
+	background-color: aquamarine;
+}
+
+.venture-row-one .work-item:nth-of-type(1) { 
+	flex-grow: 2;
+	background-image: url("/images/Venture/Venture-Logo.jpeg");
+	background-size: contain;
+} 
+
+.venture-row-one .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
+	background-size: contain;
+} 
+
+
+/* .venture-row-two .work-item:nth-of-type(1) {
+	flex-grow: 1;
+	background-image: url("/images/Venture/Venture-DosDonts-Infographic.png");
+	background-size: contain;
+} */
+
+/* .venture-row-two .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/piggies.gif");
+}
+
+.row-three .work-item:nth-of-type(1) {
+	flex-grow: 2;
+	background-image: url("/images/piggies.gif");
+}
+
+.row-three .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/piggies.gif");
+} 
