@@ -4987,7 +4987,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	color: #FCF4E3;
 }
 
-#work-nav {
+.pawl-nav {
 	color: #FCF4E3; 
 }
 
@@ -5063,14 +5063,85 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 
 /* Branding */
 
+.branding-nav ul li a:hover {
+	color: #7AA1C1 !important;
+}
+
+.branding-banner {
+	background: #FFC74C !important;
+}
+
+.branding-row-one {
+	padding-top: 2em;
+}
+
 .branding-row-one .work-item:nth-of-type(1) { 
-	flex-grow: 2;
-	background-image: url("/images/Branding/DuchessNDuke.jpg");
-	background-size: contain;
+	margin: 0;
+	flex-basis: 60%;
+	background-image: url("/images/Branding/DD.jpg");
+	background-size: cover;
+	background-position: center;
 } 
 
 .branding-row-one .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
-	background-size: contain;
+	margin: 0;
+	flex-basis: 40%;
+	background-image: url("/images/Branding/EA.jpg");
+	background-size: cover;
+	background-position: center;
 } 
+
+.branding-row-two .work-item:nth-of-type(1) {
+	margin: 0;
+	flex-basis: 40%;
+	background-image: url("/images/Branding/NTN.jpg");
+	background-size: cover;
+	background-position: center;
+} 
+
+.branding-row-two .work-item:nth-of-type(2) {
+	margin: 0;
+	flex-basis: 60%;
+	background-image: url("/images/Branding/SHDT.jpg");
+	background-size: cover;
+	background-position: center;
+} 
+
+.branding-row-three .work-item:nth-of-type(1) {
+	margin: 0;
+	flex-basis: 60%;
+	background-image: url("/images/Branding/HST.jpg");
+	background-size: cover;
+	background-position: center;
+} 
+
+.branding-row-three .work-item:nth-of-type(2) {
+	margin: 0;
+	flex-basis: 40%;
+	background-image: url("/images/Branding/AFF.jpg");
+	background-size: cover;
+	background-position: center;
+} 
+
+.work-row.branding-row-one, .work-row.branding-row-two, .work-row.branding-row-three {
+	margin-bottom: 0em;
+}
+
+@media screen and (max-width: 736px) {
+
+	.branding-row-one .work-item:nth-of-type(1), 
+	.branding-row-one .work-item:nth-of-type(2),
+	.branding-row-two .work-item:nth-of-type(1),
+	.branding-row-two .work-item:nth-of-type(2),
+	.branding-row-three .work-item:nth-of-type(1),
+	.branding-row-three .work-item:nth-of-type(2) { 
+		flex-basis: 100%;
+		background-size: cover;
+	} 
+
+	#subpage-banner .content{
+		padding: 2em;
+	}
+
+
+}
