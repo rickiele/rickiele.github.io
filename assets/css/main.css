@@ -5027,42 +5027,46 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 }
 
 .venture-row-one .work-item:nth-of-type(1) { 
-	flex-grow: 1;
-	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
-	background-size: contain;
+	margin: 0;
+	flex-basis: 60%;
+	background-image: url("/images/Venture/Venture-Logo-WhiteBG.jpg");
+	background-size: cover;
+	background-position: center;
 } 
 
-/* .venture-row-one .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
-	background-size: contain;
-}  */
+.venture-row-one .work-item:nth-of-type(2) {
+	margin: 0;
+	flex-basis: 40%;
+	background-image: url("/images/Venture/Venture-Mark.jpg");
+	background-size: cover;
+	background-position: center;
+}  
 
-
-/* .venture-row-two .work-item:nth-of-type(1) {
-	flex-grow: 1;
-	background-image: url("/images/Venture/Venture-DosDonts-Infographic.png");
-	background-size: contain;
-} */
-
-/* .venture-row-two .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/piggies.gif");
-}
-
-.row-three .work-item:nth-of-type(1) {
-	flex-grow: 2;
-	background-image: url("/images/piggies.gif");
-}
-
-.row-three .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/piggies.gif");
+.venture-row-two .work-item:nth-of-type(1) {
+	margin: 0;
+	flex-basis: 100%;
+	background-image: url("/images/Venture/Venture-Rouge-Poster.jpg");
+	background-size: cover;
+	background-position: center;
 } 
 
+.venture-row-three .work-item:nth-of-type(1) {
+	margin: 0;
+	flex-basis: 60%;
+	background-image: url("/images/venture/Venture-Donts.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.venture-row-three .work-item:nth-of-type(2) {
+	margin: 0;
+	flex-basis: 40%;
+	background-image: url("/images/Misc/larry_the_wizard.gif");
+	background-size: cover;
+	background-position: center;
+} 
 
 /* Branding */
-
 .branding-nav ul li a:hover {
 	color: #7AA1C1 !important;
 }
@@ -5134,7 +5138,13 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	.branding-row-two .work-item:nth-of-type(1),
 	.branding-row-two .work-item:nth-of-type(2),
 	.branding-row-three .work-item:nth-of-type(1),
-	.branding-row-three .work-item:nth-of-type(2) { 
+	.branding-row-three .work-item:nth-of-type(2),
+	.venture-row-one .work-item:nth-of-type(1),
+	.venture-row-one .work-item:nth-of-type(2),
+	.venture-row-two .work-item:nth-of-type(1),
+	.venture-row-two .work-item:nth-of-type(2),
+	.venture-row-three .work-item:nth-of-type(1),
+	.venture-row-three .work-item:nth-of-type(2) { 
 		flex-basis: 100%;
 		background-size: cover;
 	} 
@@ -5142,6 +5152,5 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	#subpage-banner .content{
 		padding: 2em;
 	}
-
 
 }
