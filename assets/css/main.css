@@ -4713,7 +4713,7 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		}
 
 		.tiles article.style2 > .image:before {
-			background-color: #c75b9b;
+			background-color: #FBA4A4;
 		}
 
 		.tiles article.style3 > .image:before {
@@ -4902,9 +4902,8 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 }
 .row-one .work-item:nth-of-type(2) {
 	flex-grow: 1;
-	background-image: url("/images/misc/Strangers-YTG-Cover.jpg");
+	background-image: url("/images/misc/CIR_WebHero-Cream.png");
 	background-size: contain;
-	background-position: center-bottom;
 }
 
 .row-two .work-item:nth-of-type(1) {
@@ -5015,20 +5014,29 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 /* Venture */
 
 .venture-banner {
-	background-color: aquamarine;
+	background: #D55437 !important;
+	background-size: cover;
+}
+
+.venture-banner h1 {
+	color: #FCF4E3;
+}
+
+.venture-banner p {
+	color: #FCF4E3;
 }
 
 .venture-row-one .work-item:nth-of-type(1) { 
-	flex-grow: 2;
-	background-image: url("/images/Venture/Venture-Logo.jpeg");
-	background-size: contain;
-} 
-
-.venture-row-one .work-item:nth-of-type(2) {
 	flex-grow: 1;
 	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
 	background-size: contain;
 } 
+
+/* .venture-row-one .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
+	background-size: contain;
+}  */
 
 
 /* .venture-row-two .work-item:nth-of-type(1) {
@@ -5050,4 +5058,19 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 .row-three .work-item:nth-of-type(2) {
 	flex-grow: 1;
 	background-image: url("/images/piggies.gif");
+} 
+
+
+/* Branding */
+
+.branding-row-one .work-item:nth-of-type(1) { 
+	flex-grow: 2;
+	background-image: url("/images/Branding/DuchessNDuke.jpg");
+	background-size: contain;
+} 
+
+.branding-row-one .work-item:nth-of-type(2) {
+	flex-grow: 1;
+	background-image: url("/images/Venture/Venture-Rouge-Infographic.png");
+	background-size: contain;
 } 
