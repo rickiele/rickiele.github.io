@@ -4688,8 +4688,21 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 				color: #ffffff !important;
 			}
 
+
 			.tiles article > a h2 {
 				margin: 0;
+			}
+
+			.tiles article h2 {
+				color: #403017;
+				line-height: 1em;
+			}
+
+			.tiles article p {
+				color: white;
+				line-height: 1em;
+				font-size: 1em;
+				font-weight: 600;
 			}
 
 			.tiles article > a .content {
@@ -4740,8 +4753,8 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		}
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
-				background-color: white;
-				opacity: 0.25;
+				background-color: brown;
+				opacity: 0.35;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image:after {
@@ -4959,17 +4972,6 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 		padding: .25em;
 	 }
 
-	/* .work-item:nth-of-type(1) { 
-		background-image: url("/images/larry_the_wizard.gif");
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
-	.work-item:nth-of-type(2) {
-		background-image: url("/images/noelmorning-1500-2.jpg");
-		background-size: contain;
-		background-repeat: no-repeat;
-		} */
-
 }
 
 
@@ -5154,3 +5156,38 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	}
 
 }
+
+/* Oh! Natural */
+
+.ohNatural-banner {
+	background-image: url("/images/OhNatural/ohNatural-banner.jpg");
+	background-size: cover;
+}
+
+
+/* Tomayto Tomahto */
+
+.tomaytoTomahto-banner {
+	background: #FAD4E1 !important;
+	background-size: cover;
+}
+
+.graphicNovel-work-item {
+  flex-basis: 50%;
+	width: 50%;
+}
+
+@media screen and (max-width: 736px) {
+	.graphicNovel-work-item {
+		flex-basis: 100%;
+		width: 100%;
+	}
+}
+
+/* .tomaytoTomahto-row-one .graphicNovel-work-item:nth-of-type(1) { 
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	flex-basis: 50%;
+	background-image: url("/images/TomaytoTomahto/TT-P1.jpg");
+}  */
