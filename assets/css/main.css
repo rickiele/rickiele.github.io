@@ -5154,3 +5154,10 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 	}
 
 }
+
+/* Oh! Natural */
+
+.ohNatural-banner {
+	background-image: url("/images/OhNatural/ohNatural-banner.jpg");
+	background-size: cover;
+}
