@@ -4907,38 +4907,73 @@ body:not(.mobile) .hover-toys:hover + .hover-toys-img {
 }
 
 /* Misc Page */
-.row-one .work-item:nth-of-type(1) { 
+
+.misc-row-one {
+	justify-items: center;
+}
+
+.misc-row-one .work-item:nth-of-type(1) { 
+	margin: 0 auto;
 	flex-grow: 1; 
-	background-image: url("/images/misc/larry_the_wizard.gif");
-	background-size: contain;
-	background-position: center-bottom;
-}
-.row-one .work-item:nth-of-type(2) {
-	flex-grow: 1;
 	background-image: url("/images/misc/CIR_WebHero-Cream.png");
+	background-position: center;
+
+}
+.misc-row-one .work-item:nth-of-type(2) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/Misc/littleitaly-smaller.gif");
+	background-size: cover;
+	background-position: center;
+}
+
+.misc-row-one .work-item:nth-of-type(3) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/Misc/sameyolks1500.png");
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.misc-row-two .work-item:nth-of-type(1) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/misc/Album_cover_ytg.jpg");
+	background-size: cover;
+	background-position: center bottom;
+
+}
+
+.misc-row-two .work-item:nth-of-type(2) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/misc/Encircle-Icons.png");
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.misc-row-two .work-item:nth-of-type(3) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/Misc/Valor-small.gif");
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.misc-row-three .work-item:nth-of-type(1) {
+	margin: 0 auto;
+	flex-grow: 1;
+	background-image: url("/images/Misc/MH_050721-Layout.png");
 	background-size: contain;
+	background-position: center bottom;
 }
 
-.row-two .work-item:nth-of-type(1) {
+.misc-row-three .work-item:nth-of-type(2) {
+	margin: 0 auto;
 	flex-grow: 1;
-	background-image: url("/images/piggies.gif");
-
-}
-
-.row-two .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/misc/Valor-Animation.gif");
+	background-image: url("/images//Misc/Kephart_051120-Layout.jpg");
 	background-size: contain;
-}
-
-.row-three .work-item:nth-of-type(1) {
-	flex-grow: 2;
-	background-image: url("/images/piggies.gif");
-}
-
-.row-three .work-item:nth-of-type(2) {
-	flex-grow: 1;
-	background-image: url("/images/piggies.gif");
+	background-position: center bottom;
 }
 
 .work-item {
